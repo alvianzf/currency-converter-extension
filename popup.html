@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Currency Converter</h2>
+    <input type="number" id="amount" placeholder="Enter amount">
+    
+    <select id="from-currency" class="currency-select"></select>
+    <select id="to-currency" class="currency-select"></select>
+    
+    <button id="convert">Convert</button>
+    
+    <p id="result">Converted amount will appear here</p>
+
+    <!-- Social Links -->
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/alvianzf" target="_blank">
+            <img src="linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/alvianzf/currency-converter-extension" target="_blank">
+            <img src="github.png" alt="GitHub">
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
